@@ -1,3 +1,48 @@
+body{
+    
+}
+#grid{
+    
+    
+}
+
 #televison{
     border-style: solid;
+    color: pink; 
+    height: 200px;
+    width:250px;
+    top:50px;
+    left:75px;
+    background-color: yellow;
+    border-width: 10px;
+    
+
 }
+#padding{
+    border-radius: 25px;
+    border: 15px inset black;
+    height: 160px;
+    width: 130px;
+    top: 97px;
+    left: 30px;
+    position: absolute;
+    background-color: blue;
+    
+}
+
+#weight{
+    color: red;
+    
+}
+#borderPadding{
+    position:relative;
+     top: 10px;
+    float: right;
+    background-color: purple;
+    height: 160px;
+    border-style: solid;
+    border-color:black;
+    border-size: 4px;
+    
+}
+
