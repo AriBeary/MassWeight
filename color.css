@@ -6,43 +6,71 @@ body{
     
 }
 
-#televison{
+#television{
     border-style: solid;
-    color: pink; 
+    border-width: medium;
+    color: white; 
     height: 200px;
-    width:250px;
-    top:50px;
-    left:75px;
-    background-color: yellow;
+    width:230px;
+    background-color: blue;
     border-width: 10px;
-    
+    margin: auto;
+    position: absolute;
+    left: 30px;
+    top:100px;
 
 }
-#padding{
-    border-radius: 25px;
-    border: 15px inset black;
-    height: 160px;
-    width: 130px;
-    top: 97px;
-    left: 30px;
-    position: absolute;
-    background-color: blue;
+
+#outter{
     
+    border-style: solid;
+    border-size:10px; 
+    color: black;
+    background-color: #66CDAA;
+    height:250px;
+    width:360px;
+    border-width: 10px;
+    border-radius: 25px;
+    margin: auto;
 }
+
+  #sideMenu{
+      
+      position: absolute;
+      height: 200px;
+      width: 80px;
+      color: black;
+      background-color: brown;
+      right: 30px;
+      top: 100px;
+  }  
+ #threeD{
+     border-style: ridge;
+     color: green;
+     height: 240px;
+     width:340px;
+     margin: auto;
+     background-color: black;
+     
+ }
+ #printAnswer{
+     border-radius: 100px;
+     border-color: black;
+     height: 50px;
+     width: 20px;
+ }
 
 #weight{
     color: red;
     
 }
-#borderPadding{
-    position:relative;
-     top: 10px;
-    float: right;
-    background-color: purple;
-    height: 160px;
-    border-style: solid;
-    border-color:black;
-    border-size: 4px;
-    
+
+
+h1{
+    position:center;
 }
 
+#answer{
+    
+ border-radius: 50px;
+}
